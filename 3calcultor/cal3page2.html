@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcultor3</title>
+     <link rel="stylesheet" href="calstyle.css">
+
+</head>
+
+<body>
+    
+    <center>
+        <div id="name">
+        <h1>THANK YOU SO MUCH FOR CHECKING MY WEB </h1>
+        
+    </div>
+    
+    <from name="Calcultor3">
+        
+        <div class="cal">
+            <div class="S">
+            <p><h2><i><b>MADE BY SOHAM</b></i></h2></p>
+            </div>
+        <input type="text" id="screen" name="screen" placeholder="0" readonly>
+        <br>
+
+        <input type="reset" value="AC" class="clear"  onClick="clearScreen()">
+        <input type="button" value="DEL" class="clear"  onClick="del()">
+        <input type="button" id="c" class="digit" value="%" onClick="addscreen('%')">
+        <input type="button" id="c" class="digit" value="/" onClick="addscreen('/')">
+        <br>
+
+        <input type="button" value="7" class="digit" onClick="addscreen('7')">
+        <input type="button" value="8" class="digit" onClick="addscreen('8')">
+        <input type="button" value="9" class="digit" onClick="addscreen('9')">
+        <input type="button" id="c" value="x" class="digit" onClick="addscreen('*')">
+
+        <br>
+
+        <input type="button" value="4" class="digit" onClick="addscreen('4')">
+        <input type="button" value="5" class="digit" onClick="addscreen('5')">
+        <input type="button" value="6" class="digit" onClick="addscreen('6')">
+        <input type="button" id="c" value="-" class="digit" onClick="addscreen('-')">
+
+        <br>
+
+        <input type="button" value="1" class="digit" onClick="addscreen('1')">
+        <input type="button" value="2" class="digit" onClick="addscreen('2')">
+        <input type="button" value="3" class="digit" onClick="addscreen('3')">
+        <input type="button" id="c" value="+" class="digit" onClick="addscreen('+')">
+
+        <br>
+
+        <input type="button" value="00" class="digit" onClick="addscreen('00')">
+        <input type="button" value="0" class="digit" onClick="addscreen('0')">
+        <input type="button" value="." class="digit" onClick="addscreen('.')">
+        <input type="button" id="c" value="=" class="digit" onClick="calculate('*')">
+        
+        
+
+        <script src="cal.js"></script>
+        </div>
+    </from>
+    </center>
+</body>
+</html>
